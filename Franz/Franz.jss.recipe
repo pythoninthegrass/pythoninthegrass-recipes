@@ -5,23 +5,25 @@
 	<key>Description</key>
 	<string>Downloads the current release version of Franz and builds a package. Then, uploads to the Jamf Pro Server.</string>
 	<key>Identifier</key>
-	<string>com.github.faumac.jss.Franz</string>
+	<string>com.github.pythoninthegrass-recipes.jss.Franz</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
 		<string>Apps</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
 		<string>Franz</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Apps</string>
+		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
-		<string></string>
+		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string></string>
+		<string>Franz is a free messaging app for services like WhatsApp, Slack, Messenger and many more.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Franz.png</string>
-		<key>version</key>
-		<string></string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.6.0</string>
