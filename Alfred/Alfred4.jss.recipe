@@ -5,11 +5,15 @@
 	<key>Description</key>
 	<string>Downloads the current release version of Alfred 4 and creates a package. Then, uploads to the Jamf Pro Server.</string>
 	<key>Identifier</key>
-	<string>io.github.hjuutilainen.jss.Alfred4</string>
+	<string>com.github.pythoninthegrass-recipes.jss.Alfred4</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
 		<string>Apps</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
 		<string>Alfred4</string>
 		<key>POLICY_CATEGORY</key>
@@ -17,11 +21,9 @@
 		<key>POLICY_TEMPLATE</key>
 		<string></string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string></string>
+		<string>Alfred is a productivity application for macOS, which boosts your efficiency with hotkeys, keywords and text expansion.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Alfred4.png</string>
-		<key>version</key>
-		<string></string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
@@ -35,7 +37,16 @@
 				<key>category</key>
 				<string>%CATEGORY%</string>
 				<key>groups</key>
-				<array/>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>%GROUP_NAME%</string>
+						<key>smart</key>
+						<true/>
+						<key>template_path</key>
+						<string>%GROUP_TEMPLATE%</string>
+					</dict>
+				</array>
 				<key>policy_category</key>
 				<string>%POLICY_CATEGORY%</string>
 				<key>policy_template</key>
