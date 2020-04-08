@@ -21,8 +21,7 @@
 			<key>POLICY_TEMPLATE</key>
 			<string>PolicyTemplate-AllManagedClients.xml</string>
 			<key>SELF_SERVICE_DESCRIPTION</key>
-			<string>Plantronics Hub headset software to configure settings on your Plantronics Voyager Focus headset.
-			</string>
+			<string>Plantronics Hub headset software to configure settings on your Plantronics Voyager Focus headset.</string>
 			<key>SELF_SERVICE_ICON</key>
 			<string>PlantronicsHub.png</string>
 		</dict>
