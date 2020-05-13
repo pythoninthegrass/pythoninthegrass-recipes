@@ -20,7 +20,7 @@
 			<key>POLICY_CATEGORY</key>
 			<string>Apps</string>
 			<key>POLICY_TEMPLATE</key>
-			<string>PolicyTemplate.xml</string>
+			<string>PolicyTemplate-AllManagedClients.xml</string>
 			<key>SELF_SERVICE_DESCRIPTION</key>
 			<string>Screen recorder for Mac, Windows, and Chromebooks. Record your camera and screen with audio directly from your Chrome browser.</string>
 			<key>SELF_SERVICE_ICON</key>
