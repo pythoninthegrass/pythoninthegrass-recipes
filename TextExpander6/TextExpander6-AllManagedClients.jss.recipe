@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the current release version of TextExpander 6 and makes a package. Then, uploads to the Jamf Pro Server.</string>
 	<key>Identifier</key>
-	<string>io.github.hjuutilainen.jss.TextExpander6</string>
+	<string>com.github.pythoninthegrass-recipes.jss.TextExpander6</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
