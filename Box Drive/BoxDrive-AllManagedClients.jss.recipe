@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.jss.BoxDrive-AllManagedClients</string>
+	<string>com.github.pythoninthegrass-recipes.jss.BoxDrive</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
