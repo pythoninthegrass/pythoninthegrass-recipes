@@ -1,0 +1,12 @@
+<script>
+    <name>spotify_postinstall.sh</name>
+    <category>Quick Fixes</category>
+    <filename>spotify_postinstall.sh</filename>
+    <info>
+    Sets /Applications/Spotify.app permissions to match logged in user and removes hidden 'sp_update' directory that forces admin prompt when a user tries to update outside of Self Service.
+    </info>
+    <notes></notes>
+    <priority>After</priority>
+    <parameters></parameters>
+    <os_requirements></os_requirements>
+</script>
