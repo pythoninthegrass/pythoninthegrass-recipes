@@ -60,6 +60,20 @@
 					</dict>
 					<key>Processor</key>
 					<string>JSSImporter</string>
+					<key>Arguments</key>
+					<dict>
+						<key>prod_name</key>
+						<string>%NAME%</string>
+						<key>scripts</key>
+						<array>
+							<dict>
+								<key>name</key>
+								<string>spotify_postinstall.sh</string>
+								<key>template_path</key>
+								<string>%NAME%-ScriptTemplate.xml</string>
+							</dict>
+						</array>
+					</dict>
 				</dict>
 			</array>
 	</dict>
