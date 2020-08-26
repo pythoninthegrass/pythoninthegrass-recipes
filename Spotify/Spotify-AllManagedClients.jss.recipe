@@ -67,7 +67,7 @@
 						<key>prod_name</key>
 						<string>%NAME%</string>
 						<key>skip_scripts</key>
-						<false/>
+						<true/>
 					</dict>
 				</dict>
 			</array>
