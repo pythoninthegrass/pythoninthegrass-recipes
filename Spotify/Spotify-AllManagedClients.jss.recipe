@@ -24,8 +24,6 @@
 			<string>Stream music, create playlists and more.</string>
 			<key>SELF_SERVICE_ICON</key>
 			<string>Spotify.png</string>
-			<key>skip_scripts<key>
-			<false/>
 			<key>STOP_IF_NO_JSS_UPLOAD</key>
 			<false/>
 		</dict>
@@ -64,6 +62,11 @@
 					</dict>
 					<key>Processor</key>
 					<string>JSSImporter</string>
+					<key>Arguments</key>
+					<dict>
+						<key>skip_scripts</key>
+						<false/>
+					</dict>
 				</dict>
 			</array>
 	</dict>
