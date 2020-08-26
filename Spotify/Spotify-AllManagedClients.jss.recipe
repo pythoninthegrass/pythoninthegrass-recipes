@@ -24,12 +24,6 @@
 			<string>Stream music, create playlists and more.</string>
 			<key>SELF_SERVICE_ICON</key>
 			<string>Spotify.png</string>
-			<key>SCRIPT_NAME</key>
-			<string>spotify_postinstall.sh</string>
-			<key>SCRIPT_TEMPLATE</key>
-			<string>%NAME%-ScriptTemplate.xml</string>
-			<key>STOP_IF_NO_JSS_UPLOAD</key>
-			<false/>
 		</dict>
 		<key>MinimumVersion</key>
 		<string>0.2.0</string>
@@ -66,20 +60,6 @@
 					</dict>
 					<key>Processor</key>
 					<string>JSSImporter</string>
-					<key>Arguments</key>
-					<dict>
-						<key>prod_name</key>
-						<string>%NAME%</string>
-						<key>scripts</key>
-						<array>
-							<dict>
-								<key>name</key>
-								<string>spotify_postinstall.sh</string>
-								<key>template_path</key>
-								<string>%NAME%-ScriptTemplate.xml</string>
-							</dict>
-						</array>
-					</dict>
 				</dict>
 			</array>
 	</dict>
