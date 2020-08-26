@@ -64,6 +64,8 @@
 					<string>JSSImporter</string>
 					<key>Arguments</key>
 					<dict>
+						<key>prod_name</key>
+						<string>%NAME%</string>
 						<key>skip_scripts</key>
 						<false/>
 					</dict>
