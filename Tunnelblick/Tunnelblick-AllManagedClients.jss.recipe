@@ -17,9 +17,9 @@
 		<key>NAME</key>
 		<string>Tunnelblick</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Testing</string>
+		<string>Apps</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate.xml</string>
+		<string>PolicyTemplate-AllManagedClients.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>GUI for OpenVPN.</string>
 		<key>SELF_SERVICE_ICON</key>
