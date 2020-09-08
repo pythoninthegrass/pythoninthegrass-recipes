@@ -1,0 +1,9 @@
+<key>pkg_path</key>
+<key>scripts</scripts>
+<array>
+    <dict>
+        <key>name</key>
+        <string>spotify_postinstall.sh</string>
+        <key>Spotify-ScriptTemplate.xml</key>
+    </dict>
+</array>
