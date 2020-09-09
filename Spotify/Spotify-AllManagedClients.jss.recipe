@@ -61,8 +61,15 @@
 					<string>%SELF_SERVICE_ICON%</string>
 					<key>prod_name</key>
 					<string>%NAME%</string>
-					<key>skip_scripts</key>
-					<false/>
+					<key>scripts</key>
+					<array>
+						<dict>
+							<key>name</key>
+							<string>spotify_postinstall.sh</string>
+							<key>template_path</key>
+							<string>Spotify-ScriptTemplate.xml</string>
+						</dict>
+                	</array>
 				</dict>
 				<key>Processor</key>
 				<string>JSSImporter</string>
