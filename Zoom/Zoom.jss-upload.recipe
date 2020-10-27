@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the current release version of Zoom and builds a package. Then, uploads to the JSS.</string>
+	<key>Identifier</key>
+	<string>com.github.pythoninthegrass-recipes.jss-upload.Zoom</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Apps</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>NAME</key>
+		<string>zoom.us</string>
+		<key>POLICY_NAME</key>
+		<string></string>
+		<key>POLICY_CATEGORY</key>
+		<string></string>
+		<key>replace_category</key>
+		<string>True</string>
+		<key>replace_group</key>
+		<string>True</string>
+		<key>replace_policy</key>
+		<string>True</string>
+		<key>replace_pkg</key>
+		<string>True</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>2.0.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.homebysix.pkg.Zoom</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>category_name</key>
+				<string>%CATEGORY%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.grahampugh.jamf-upload.processors/JamfCategoryUploader</string>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>com.github.grahampugh.jamf-upload.processors/JamfPackageUploader</string>
+		</dict>
+	</array>
+</dict>
+</plist>
